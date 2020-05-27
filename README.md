@@ -23,12 +23,12 @@ cd lyka-vue
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Development Server
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Production Build
 ```
 npm run build
 ```
@@ -42,8 +42,6 @@ npm run lint
 
 ## lyka-react
 
-## Available Scripts
-
 ### Project setup
 
 ```
@@ -51,23 +49,17 @@ cd lyka-react
 npm install
 ```
 
-### Run development server
+### Development Server
 
 ```
 npm start
 ```
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000)
 
-The page will reload if you make edits. You will also see any lint errors in the console.
 
-### Build production site
+### Production Build
 
 ```
 npm build
 ```
-
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
