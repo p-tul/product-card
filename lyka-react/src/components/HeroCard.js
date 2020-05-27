@@ -45,7 +45,8 @@ const Container = styled.div`
 const Hero = styled.img`
     position: relative;
     right: 60px;
-    filter: drop-shadow(0px 0px 24px rgba(68, 68, 68, 0.5));
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 0px 24px rgba(68, 68, 68, 0.5)) saturate(150%);
 
     @media (max-width: 800px) {
         position: static;
