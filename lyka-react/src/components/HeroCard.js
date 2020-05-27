@@ -22,6 +22,11 @@ const Container = styled.div`
     padding-top: 2rem;
     transition: transform 300ms;
 
+    @media (max-width: 800px) {
+        position: static;
+        margin-bottom: 2rem;
+    }
+
     :hover {
         transform: scale(1.003)
     }
@@ -41,6 +46,10 @@ const Hero = styled.img`
     position: relative;
     right: 60px;
     filter: drop-shadow(0px 0px 24px rgba(68, 68, 68, 0.5));
+
+    @media (max-width: 800px) {
+        position: static;
+    }
 `
 
 const Icon = styled.img`
@@ -53,17 +62,23 @@ const Icon = styled.img`
     }
 `
 
+const ImageWrapper = styled.div`
+    @media (max-width: 800px) {
+        position: relative;
+    }
+`
+
 // TEMPLATE
 const HeroCard = () => {
     return (
         <Container>
-            <div>
+            <ImageWrapper>
                 <Hero className="heroImage" src={HeroImage} alt="green apple with slice" />
                 <a href="https://daiquiridigital.com/" target="_blank" rel="noopener noreferrer">
                     <Icon className="top-left" src={Share} alt="" />
                 </a>
                 <Icon className="top-right" src={Heart} alt="" />
-            </div>
+            </ImageWrapper>
             <ImageSelector />
         </Container>
     )

@@ -16,6 +16,11 @@ const Container = styled.div`
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
+
+    @media (max-width: 800px) {
+        display: flex;
+        flex-direction: column;
+    }
 `
 
 const ProductName = styled.h2`
