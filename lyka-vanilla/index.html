@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyka Product Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/main.js"></script>
+</head>
+<body>
+    <div class="productCard">
+        <div class="imageCard">
+            <div class="productImage">
+                <img class="heroImage" src="/img/green-apple-with-slice.png" alt="green apple with slice">
+                <a href="https://daiquiridigital.com/" target="_blank">
+                    <img class="icon icon-share" src="/icons/share.svg" alt="">
+                </a>
+                <a href="">
+                    <img class="icon icon-heart" src="/icons/heart-line.svg" alt="">
+                </a>
+            </div>
+            <div class="imageSelector">
+                <ul class="imageSelector-list">
+                    <li class="imageSelector-list-item"><img src="/img/green-apple2.png" alt="green apple"></li>
+                    <li class="imageSelector-list-item"><img src="/img/half-apple.png" alt="half apple"></li>
+                    <li class="imageSelector-list-item"><img src="/img/green-apple-flipped.png" alt="flipped apple"></li>
+                    <li class="imageSelector-list-item"><img src="/img/apple-top.png" alt="apple top"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cardContent">
+            <h2 class="productName">Delicious Apples</h2>
+            <div class="productCode">COD: 45999</div>
+            <div class="price">R$ <span class="price-value">7.93</span></div>
+            <!-- Should have a quantity selector here -->
+            <div class="colorPicker">
+                <div class="colorPicker-heading">Select A Colour</div>
+                <ul class="colorPicker-list">
+                    <li class="colorPicker-list-item active"><img src="/img/green-apple2.png" alt=""></li>
+                    <li class="colorPicker-list-item"><img src="/img/yellow-apple.png" alt=" "></li>
+                    <li class="colorPicker-list-item"><img src="/img/orange-apple.png" alt=""></li>
+                    <li class="colorPicker-list-item"><img src="/img/red-apple.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="benefits">
+                <div class="benefits-heading">Benefits</div>
+                <ul class="benefits-list">
+                    <li>Apples are nutritious</li>
+                    <li>Apples may be good for weight loss</li>
+                    <li>Apples may be good for bone health</li>
+                    <li>They're linked to lower risk of diabetes</li>
+                </ul>
+            </div>
+            <button class="btn btn-primary">Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>
